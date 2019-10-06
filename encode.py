@@ -11,7 +11,7 @@ from PIL import Image
 def encode(degree, path):
     """
     takes degree of polynominal, directory of .png files
-    compress and saves the pictures as .npy matrix
+    compresses and saves the pictures as .npy matrix
     """
     # creating sorted list of files
     files = sorted(glob.glob('%s/*.png' % path))
