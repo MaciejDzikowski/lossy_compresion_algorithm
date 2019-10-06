@@ -1,0 +1,1 @@
+"A lossy compression algorithm for .png files"
