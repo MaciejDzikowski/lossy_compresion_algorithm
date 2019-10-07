@@ -38,7 +38,7 @@ def encode(degree, path):
     new_matrix = np.zeros((matrix.shape[0] + 1, matrix.shape[1],
                            matrix.shape[2], degree + 1), dtype=float)
 
-    # inserting to martix information, how many pictures have been compressed
+    # inserting to matrix information, how many pictures have been compressed
     # new_matrix[0, 0, 0, 0] = len(files)
     new_matrix[0, 0, 0, 0] = 60
 
